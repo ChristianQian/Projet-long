@@ -1,0 +1,170 @@
+* Matériel
+  Base shield
+  Arduino
+  capteurs grove: poussière, humidité, qualité de l'air et son
+
+* <24/10/2019>
+** Projet mme. TASSON
+** 
+** A faire
+** Contacter mme. TASSON
+
+* <07/11/2019>
+
+** Jalons
+   apprentissage des données pour faire de la prédiction
+   k-moyenne, 
+
+** TODOS
+   faire une liste des algo de prédictions à tester pour voir les meilleurs
+   utilisation de dataframe (python, librairie panda) librairie adapté aux grandes bases de données
+   utilation de CSV, regarder compatibilité et conversion des données 
+   prévoir la visualisation des résultats
+   prévoir l'interface avec les algo d'apprentissage
+   lire le code de l'arduino
+
+** Plans
+
+* <13/11/2019>
+  
+** Faits
+
+*** Récupérer les données
+    librairie table d'arduino qui permet de récupérer tableau
+    table => CSV
+
+*** Modélisation de la BD
+    
+
+** Faire
+
+*** Quels algorithmes d'apprentissage
+*** Visualisation des résultats
+
+* <21/11/2019>
+  
+** DONE
+   Matériel
+   Interface graphique: représentation des plans et pollution
+   
+** TODO
+   Boîte
+   Construire le mesureur
+   Récupérer les premières mesures
+   Réfléchir à comment remplir automatiquement la base de données
+   Comment connecter BD et interface graphique
+   
+* <28/11/2019>
+
+** DONE
+   mesures avec des capteurs
+   arduino connecté à l'ordinateur
+   air quality détail
+   export vers un CSV
+
+** TODO
+   à résoudre interface arduino, processing pour stocker en CSV
+   traiter les données
+   étalonnage de la température, quelle est l'erreur ?
+   documenter air quality
+   créer la boîte
+   diagramme gantt
+   
+
+
+* <12/12/2019>
+** Fait
+*** résolu interface arduino, processing pour stocker en CSV
+*** diagramme gantt
+** A faire:
+*** étalonnage de la température, quelle est l'erreur ?
+*** documenter air quality
+*** ajouter au gannt le passé
+
+* <21/01/2020>
+
+pb au démarrage un peu lent
+
+** DONE
+   CSV
+   normaliser les données
+   débroussaillage du traitement des données
+
+** TODO
+   Boite
+   Étalonner la température/son => donner du sens aux mesures et les afficher
+   Préparer une explication de l'algo des k moyennes
+   
+
+* <28/01/2020>
+  
+** DONE
+   Interface graphique: afficher des données (vraies)
+
+** TODO
+   Boite
+   Étalonner la température/son => donner du sens aux mesures et les afficher
+   QR code, page web
+   Préparer une explication de l'algo des k moyennes
+   Plus de mesures pour l'affichage
+
+* <04/02/2020>
+  
+** DONE
+   QR code + site
+   boîte
+   couleurs pour représenter les valeurs
+   étalonnage, test bof
+
+** TODO
+   son => courant à convertir en décibel
+   mesures au troisième étage/cours premières représentation 
+   qualité de l'air ce que ça mesure
+   k moyenne expliqué, implémenté, exemple
+
+* <11/02/2020>
+
+** DONE 
+   boîte manque fixations
+   son decibels
+   mesures
+
+
+** TODO
+   reprendre k moyenne et qualité de l'air
+   mesurer sans être connecté à l'ordi ?
+   Comment les mesures seront prises
+   
+   
+   
+* <24/02/2020>
+** DONE
+   air quality, exploration de la librairie
+   réflexion k moyenne
+
+** TODO
+   cf 11
+   dire comment vous prenez les mesures
+
+  
+
+<<<<<<< HEAD
+
+* <03/03/2020>
+** Fait:
+** La memoire (stockage en carte SD)
+** Code pour gerer le  capteur particules 
+** A faire:
+** Continuer à chercher Air Quality: la fiche technique ne contient pas
+** les informations
+>>>>>>> aa623edac45afdabac55cebd996a8903d6b708d9
+* <10/03/2020>
+
+** DONE
+   organisation prise de mesures
+   mail prise de mesures au 3ème étage - vendredi
+   capteur de poussière marche avec valeurs bizarre
+
+** TODO
+   prise de mesure et traiter les données.
+=======
